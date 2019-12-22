@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".FDash_Earn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grad"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#aa212121"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fdash_earnback"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#aa212121"
+                android:drawableLeft="@drawable/back"
+                android:fontFamily="@font/avenir_light"
+                android:gravity="center"
+                android:paddingRight="25dp"
+                android:text="@string/fdash_earn"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/imageView78"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/earn_head" />
+
+                    <Button
+                        android:id="@+id/earn_info"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/fac_button"
+                        android:drawableBottom="@drawable/down"
+                        android:fontFamily="@font/avenir_light"
+
+                        android:onClick="onEarnInfo"
+                        android:paddingTop="7dp"
+                        android:text="@string/update_price_info"
+                        android:textAllCaps="false"
+                        android:textColor="#424242"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/earn_linfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/lower"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/earn_minfo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:gravity="center"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="5dp"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/earn_minfo1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="5dp"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/earn_minfomarket"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/marr_my"
+                            android:textColor="#616161"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/earn_infomarket"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:gravity="center|center_vertical"
+                            android:popupBackground="@drawable/fac_dropdown" />
+
+                        <TextView
+                            android:id="@+id/earn_minfocrop"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/marr_crop"
+                            android:textColor="#616161"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/earn_infocrop"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:gravity="center|center_vertical"
+                            android:popupBackground="@drawable/fac_dropdown" />
+
+                        <TextView
+                            android:id="@+id/earn_minfodate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/select_date"
+                            android:textAllCaps="true"
+                            android:textColor="#616161"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/earn_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/select_date"
+                            android:textColor="@color/FAC_Basic"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/earn_minfoarr"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/enter_arrivals_in_quintals"
+                            android:textColor="#616161"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/earn_infoarr"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:ems="10"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:hint="@string/enter_arrival"
+                            android:inputType="numberSigned"
+                            android:textColor="@color/FAC_Option"
+                            android:textColorHint="@color/FAC_Basic"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/earn_minfomin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/enter_min_price_per_100_q"
+                            android:textColor="#616161"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/earn_infomin"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:ems="10"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:hint="@string/enter_min_price"
+                            android:inputType="numberSigned"
+                            android:textColor="@color/FAC_Option"
+                            android:textColorHint="@color/FAC_Basic"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/earn_minfomax"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/enter_max_price_per_100_q"
+                            android:textColor="#616161"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/earn_infomax"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:ems="10"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:hint="@string/enter_max_price"
+                            android:inputType="numberSigned"
+                            android:textColor="@color/FAC_Option"
+                            android:textColorHint="@color/FAC_Basic"
+                            android:textSize="16sp" />
+
+
+                        <Button
+                            android:id="@+id/earn_infonext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/fac_next"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/next"
+                            android:textAllCaps="false"
+                            android:textColor="#424242"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/earn_infoback"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/up" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/earn_arr"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/fac_button"
+                        android:drawableBottom="@drawable/down"
+                        android:fontFamily="@font/avenir_light"
+
+                        android:onClick="onEarnArr"
+                        android:paddingTop="7dp"
+                        android:text="@string/redeem_for_arrivals"
+                        android:textAllCaps="false"
+                        android:textColor="#424242"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/earn_larr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/lower"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/earn_marr1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/earn_marr2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="14sp" />
+
+
+                        <ImageView
+                            android:id="@+id/earn_backarr"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/up" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

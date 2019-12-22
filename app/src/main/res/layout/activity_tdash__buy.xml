@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".TDash_Buy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grad"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#aa212121"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/buy_back"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#aa212121"
+                android:drawableLeft="@drawable/back"
+                android:fontFamily="@font/avenir55_roman"
+                android:gravity="center"
+                android:paddingRight="25dp"
+                android:text="Buy Crop"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/buy_head" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/buy_final"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:drawableRight="@drawable/smile"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:gravity="center|center_vertical"
+                        android:text="Crop Registered for Demand  "
+                        android:textColor="#ffffff"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/buy_m"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/upper"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="TextView"
+                        android:textColor="#424242"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/buy_m1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/lower"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="TextView"
+                        android:textColor="#424242"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/buy_mcity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="40dp"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:text="Select City"
+                        android:textAllCaps="true"
+                        android:textColor="#e9e9e9"
+                        android:textSize="10sp" />
+
+                    <Spinner
+                        android:id="@+id/buy_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/my_spinner"
+                        android:popupBackground="@drawable/my_drop_down" />
+
+                    <TextView
+                        android:id="@+id/buy_mcrop"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="40dp"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:text="Select Crop"
+                        android:textAllCaps="true"
+                        android:textColor="#e9e9e9"
+                        android:textSize="10sp" />
+
+                    <Spinner
+                        android:id="@+id/buy_crop"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/my_spinner"
+                        android:popupBackground="@drawable/my_drop_down" />
+
+                    <TextView
+                        android:id="@+id/buy_mq"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="40dp"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:text="Enter amount in quintal"
+                        android:textAllCaps="true"
+                        android:textColor="#e9e9e9"
+                        android:textSize="10sp" />
+
+                    <EditText
+                        android:id="@+id/buy_q"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/my_spinner"
+                        android:ems="10"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:hint="Enter quantity"
+                        android:inputType="numberSigned"
+                        android:textColor="@color/DD_Option"
+                        android:textColorHint="@color/DD_Basic"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/buy_submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/submit"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:paddingLeft="40dp"
+                        android:paddingRight="40dp"
+                        android:text="Submit"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+                >
+            </ScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

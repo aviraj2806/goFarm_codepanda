@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".LoanSuccess">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grad"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#aa212121"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/loan_back"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#aa212121"
+                android:drawableLeft="@drawable/back"
+                android:fontFamily="@font/avenir_light"
+                android:gravity="center"
+                android:paddingRight="25dp"
+                android:text="@string/fdash_loan"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/bank_head" />
+
+            <TextView
+                android:id="@+id/loan_final"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:drawableRight="@drawable/smile"
+                android:fontFamily="@font/avenir55_roman"
+                android:gravity="center|center_vertical"
+                android:text="@string/loanalready"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/loan_m"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/upper"
+                android:fontFamily="@font/avenir55_roman"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="TextView"
+                android:textColor="#424242"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/loan_m1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/lower"
+                android:fontFamily="@font/avenir55_roman"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="TextView"
+                android:textColor="#424242"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

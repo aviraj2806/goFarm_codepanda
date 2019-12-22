@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".FDash_Govt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grad"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#aa212121"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fdash_govtback"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#aa212121"
+                android:drawableLeft="@drawable/back"
+                android:fontFamily="@font/avenir_light"
+                android:gravity="center"
+                android:paddingRight="25dp"
+                android:text="@string/fdash_govt"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView58"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/govt_head" />
+
+                    <Button
+                        android:id="@+id/govt_scheme"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/fac_button"
+                        android:drawableBottom="@drawable/down"
+                        android:fontFamily="@font/avenir_light"
+                        android:onClick="onScheme"
+                        android:paddingTop="7dp"
+                        android:text="@string/govt_choose"
+                        android:textAllCaps="false"
+                        android:textColor="#424242"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/govt_lscheme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/lower"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:visibility="gone">
+
+                        <Button
+                            android:id="@+id/govt_pmfby"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:drawableRight="@drawable/right"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:gravity="left|center_vertical"
+                            android:maxLines="1"
+                            android:text="@string/p_m_f_b_y"
+                            android:textAllCaps="false"
+                            android:textColor="@color/FAC_Option"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/govt_pmks"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:drawableRight="@drawable/right"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/p_m_k_s_y"
+                            android:textAllCaps="false"
+                            android:textColor="@color/FAC_Option"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/govt_kcc"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:drawableRight="@drawable/right"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/k_c_c"
+                            android:textAllCaps="false"
+                            android:textColor="@color/FAC_Option"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/govt_shcs"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:drawableRight="@drawable/right"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/s_h_c_s"
+                            android:textAllCaps="false"
+                            android:textColor="@color/FAC_Option"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/govt_rgm"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:drawableRight="@drawable/right"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/r_g_m"
+                            android:textAllCaps="false"
+                            android:textColor="@color/FAC_Option"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/govt_mscategory"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/govt_catogery"
+                            android:textColor="#616161"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/govt_scategory"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:popupBackground="@drawable/fac_dropdown" />
+
+                        <Button
+                            android:id="@+id/govt_snext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/fac_next"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/next"
+                            android:textAllCaps="false"
+                            android:textColor="#424242"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/govt_sback"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            app:srcCompat="@drawable/up" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/govt_apply"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/fac_button"
+                        android:drawableBottom="@drawable/down"
+                        android:fontFamily="@font/avenir_light"
+                        android:onClick="onApply"
+                        android:paddingTop="7dp"
+                        android:text="@string/govt_apply"
+                        android:textAllCaps="false"
+                        android:textColor="#424242"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/govt_lapply"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/lower"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp">
+
+                        <TextView
+                            android:id="@+id/govt_am"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="5dp"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/govt_am1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="5dp"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/govt_mascheme"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/govt_scheme"
+                            android:textColor="#616161"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/govt_ascheme"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:popupBackground="@drawable/fac_dropdown" />
+
+                        <TextView
+                            android:id="@+id/govt_mabank"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/govt_bank"
+                            android:textColor="#616161"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/govt_abank"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:popupBackground="@drawable/fac_dropdown" />
+
+                        <TextView
+                            android:id="@+id/govt_maaccount"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/govt_acc"
+                            android:textColor="#616161"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/govt_aaccount"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:ems="10"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:hint="@string/enter_your_account_number"
+                            android:inputType="number"
+                            android:textColor="@color/FAC_Option"
+                            android:textColorHint="@color/FAC_Basic"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/govt_anext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/fac_next"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/apply"
+                            android:textAllCaps="false"
+                            android:textColor="#424242"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/govt_aback"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            app:srcCompat="@drawable/up" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

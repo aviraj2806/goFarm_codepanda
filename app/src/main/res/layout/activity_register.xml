@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grad"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#bb212121"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/reg_back"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginBottom="10dp"
+                android:background="#aa212121"
+                android:drawableLeft="@drawable/down3"
+                android:fontFamily="@font/avenir55_roman"
+                android:gravity="center|left"
+                android:paddingLeft="8dp"
+                android:paddingTop="8dp"
+                android:paddingRight="48dp"
+                android:paddingBottom="8dp"
+                android:text="@string/register"
+                android:textAllCaps="false"
+                android:textColor="#eeeeee"
+                android:textSize="40sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/reg_muser"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="40dp"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:text="@string/mreg_ut"
+                        android:textColor="#ffffff"
+                        android:textSize="9sp" />
+
+                    <Spinner
+                        android:id="@+id/reg_user"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/my_spinner"
+                        android:popupBackground="@drawable/my_drop_down" />
+
+                    <TextView
+                        android:id="@+id/reg_mname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="40dp"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:text="@string/mreg_name"
+                        android:textColor="#ffffff"
+                        android:textSize="9sp" />
+
+                    <EditText
+                        android:id="@+id/reg_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/my_spinner"
+                        android:ems="10"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:hint="@string/reg_name"
+                        android:inputType="textPersonName"
+                        android:textColor="#000000"
+                        android:textColorHighlight="#00897b"
+                        android:textColorHint="#616161"
+                        android:textColorLink="#00897b"
+                        android:textCursorDrawable="@drawable/cursor"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/reg_mphn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="40dp"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:text="@string/mreg_phn"
+                        android:textColor="#ffffff"
+                        android:textSize="9sp" />
+
+                    <EditText
+                        android:id="@+id/reg_phn"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/my_spinner"
+                        android:ems="10"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:hint="@string/reg_phn"
+                        android:inputType="number"
+                        android:textColor="#000000"
+                        android:textColorHighlight="#00897b"
+                        android:textColorHint="#616161"
+                        android:textColorLink="#00897b"
+                        android:textCursorDrawable="@drawable/cursor"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/reg_muid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="40dp"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:text="@string/mreg_uid"
+                        android:textColor="#ffffff"
+                        android:textSize="9sp" />
+
+                    <EditText
+                        android:id="@+id/reg_uid"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/my_spinner"
+                        android:ems="10"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:hint="@string/reg_uid"
+                        android:inputType="number"
+                        android:textColor="#000000"
+                        android:textColorHighlight="#00897b"
+                        android:textColorHint="#616161"
+                        android:textColorLink="#00897b"
+                        android:textCursorDrawable="@drawable/cursor"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/reg_mcity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="40dp"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:text="@string/mreg_city"
+                        android:textColor="#ffffff"
+                        android:textSize="9sp" />
+
+                    <Spinner
+                        android:id="@+id/reg_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/my_spinner"
+                        android:popupBackground="@drawable/my_drop_down" />
+
+                    <TextView
+                        android:id="@+id/reg_mid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="40dp"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:text="@string/hplog_id"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffff"
+                        android:textSize="9sp" />
+
+                    <EditText
+                        android:id="@+id/reg_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/my_spinner"
+                        android:ems="10"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:hint="@string/reg_id"
+                        android:inputType="textPersonName"
+                        android:textColor="#000000"
+                        android:textColorHighlight="#00897b"
+                        android:textColorHint="#616161"
+                        android:textColorLink="#00897b"
+                        android:textCursorDrawable="@drawable/cursor"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/reg_mpass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="40dp"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:text="@string/hplog_pass"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffff"
+                        android:textSize="9sp" />
+
+                    <EditText
+                        android:id="@+id/reg_pass"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/my_spinner"
+                        android:drawableRight="@drawable/pshow"
+                        android:ems="10"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:hint="@string/reg_pass"
+                        android:inputType="textPassword"
+                        android:textColor="#000000"
+                        android:textColorHighlight="#00897b"
+                        android:textColorHint="#616161"
+                        android:textColorLink="#00897b"
+                        android:textCursorDrawable="@drawable/cursor"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/reg_mcpass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="40dp"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:text="@string/mreg_cpass"
+                        android:textAllCaps="true"
+                        android:textColor="#ffffff"
+                        android:textSize="9sp" />
+
+                    <EditText
+                        android:id="@+id/reg_cpass"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/my_spinner"
+                        android:drawableRight="@drawable/pshow"
+                        android:ems="10"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:hint="@string/mreg_cpass"
+                        android:inputType="textPassword"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        android:textColorHighlight="#00897b"
+                        android:textColorHint="#616161"
+                        android:textColorLink="#00897b"
+                        android:textCursorDrawable="@drawable/cursor"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/reg_submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/submit"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:onClick="btnSubmit"
+                        android:paddingLeft="40dp"
+                        android:paddingRight="40dp"
+                        android:text="@string/submit"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

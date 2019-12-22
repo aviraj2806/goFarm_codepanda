@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".FDash_Price">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grad"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#aa212121"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/price_back"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+
+                android:background="#aa212121"
+                android:drawableLeft="@drawable/back"
+                android:fontFamily="@font/avenir_light"
+                android:gravity="center"
+                android:paddingRight="25dp"
+                android:text="@string/fdash_price"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/price_head" />
+
+                    <LinearLayout
+                        android:id="@+id/price_linfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/price_market"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="20dp"
+                            android:drawableRight="@drawable/report"
+                            android:fontFamily="@font/avenir_light"
+                            android:gravity="center"
+                            android:text="Lasalgaon Market   "
+                            android:textColor="#ffffff"
+                            android:textSize="24sp" />
+
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/price1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/upperleft"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:padding="5dp"
+                                    android:text="@string/crop"
+                                    android:textColor="#212121"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/price_infocrop"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/upperright"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:padding="5dp"
+                                    android:text="Onion"
+                                    android:textColor="#424242"
+                                    android:textSize="18sp" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/price2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_weight="1"
+                                    android:background="#ccffffff"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:padding="5dp"
+                                    android:text="@string/date"
+                                    android:textColor="#212121"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/price_infodate"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:background="#ccffffff"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:padding="5dp"
+                                    android:text="28-Jun-2019"
+                                    android:textColor="#424242"
+                                    android:textSize="18sp" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/price3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_weight="1"
+                                    android:background="#ccffffff"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:padding="5dp"
+                                    android:text="@string/arrivals"
+                                    android:textColor="#212121"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/price_infoarr"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:background="#ccffffff"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:padding="5dp"
+                                    android:text="200 Quin"
+                                    android:textColor="#424242"
+                                    android:textSize="18sp" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/price4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_weight="1"
+                                    android:background="#ccffffff"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:padding="5dp"
+                                    android:text="@string/min_price"
+                                    android:textColor="#212121"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/price_infomin"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:background="#ccffffff"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:padding="5dp"
+                                    android:text="400"
+                                    android:textColor="#424242"
+                                    android:textSize="18sp" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <TextView
+                                    android:id="@+id/price5"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/lowerleft"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:padding="5dp"
+                                    android:text="@string/max_price"
+                                    android:textColor="#212121"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/price_infomax"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/lowerright"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:padding="5dp"
+                                    android:text="1000"
+                                    android:textColor="#424242"
+                                    android:textSize="18sp" />
+                            </TableRow>
+                        </TableLayout>
+
+
+                        <Button
+                            android:id="@+id/price_new"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/submit"
+                            android:fontFamily="@font/avenir_light"
+
+                            android:onClick="onNew"
+                            android:paddingLeft="40dp"
+                            android:paddingRight="40dp"
+                            android:text="@string/trans_new"
+                            android:textAllCaps="false"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/price_lask"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/price_mmarket"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="40dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/marr_my"
+                            android:textAllCaps="true"
+                            android:textColor="#e9e9e9"
+                            android:textSize="9sp" />
+
+                        <Spinner
+                            android:id="@+id/price_askmarket"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@drawable/my_spinner"
+                            android:popupBackground="@drawable/my_drop_down" />
+
+                        <TextView
+                            android:id="@+id/price_mcrop"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="40dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/marr_crop"
+                            android:textAllCaps="true"
+                            android:textColor="#e9e9e9"
+                            android:textSize="9sp" />
+
+                        <Spinner
+                            android:id="@+id/price_crop"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@drawable/my_spinner"
+                            android:popupBackground="@drawable/my_drop_down" />
+
+                        <TextView
+                            android:id="@+id/price_mdate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="40dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/enter_date"
+                            android:textAllCaps="true"
+                            android:textColor="#e9e9e9"
+                            android:textSize="9sp" />
+
+                        <TextView
+                            android:id="@+id/price_date"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="30dp"
+                            android:background="@drawable/my_spinner"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:gravity="left|center_vertical"
+                            android:text="@string/select_date"
+                            android:textColor="@color/DD_Basic"
+                            android:textColorHint="@color/DD_Basic"
+                            android:textCursorDrawable="@drawable/cursor"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/price_submit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/submit"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:onClick="onInfo"
+                            android:paddingLeft="40dp"
+                            android:paddingRight="40dp"
+                            android:text="@string/submit"
+                            android:textAllCaps="false"
+                            android:textColor="#ffffff"
+                            android:textSize="20sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

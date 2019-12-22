@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".FDash_Transport">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grad"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#aa212121"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/trans_back"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#aa212121"
+                android:drawableLeft="@drawable/back"
+                android:fontFamily="@font/avenir_light"
+                android:gravity="center"
+                android:paddingRight="25dp"
+                android:text="@string/fdash_trans"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/trans_head" />
+
+                    <LinearLayout
+                        android:id="@+id/dis1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/fac_button"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/balaji"
+                            app:civ_border_color="#707070"
+                            app:civ_border_width="3dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/n1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="@string/t1"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/c1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="@string/c1"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/call1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="@string/call"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+
+                                <Button
+                                    android:id="@+id/re1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="@string/request"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/dis2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/fac_button"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/sadashiv"
+                            app:civ_border_color="#707070"
+                            app:civ_border_width="3dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/n2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="@string/t2"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/c2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="@string/c2"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/call2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="@string/call"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+
+                                <Button
+                                    android:id="@+id/re2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="@string/request"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/dis3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/fac_button"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/rk"
+                            app:civ_border_color="#707070"
+                            app:civ_border_width="3dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/n3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="@string/t3"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/c3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="@string/c3"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/call3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="@string/call"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+
+                                <Button
+                                    android:id="@+id/re3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="@string/request"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/dis4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/fac_button"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/sindh"
+                            app:civ_border_color="#707070"
+                            app:civ_border_width="3dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/n4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="@string/t4"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/c4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="@string/c4"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/call4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="@string/call"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+
+                                <Button
+                                    android:id="@+id/re4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="@string/request"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/dis5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/fac_button"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/pun"
+                            app:civ_border_color="#707070"
+                            app:civ_border_width="3dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/n5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="@string/t5"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/c5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="@string/c5"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/call5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="@string/call"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+
+                                <Button
+                                    android:id="@+id/re5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="@string/request"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/trans_new"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/submit"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:paddingLeft="40dp"
+                        android:paddingRight="40dp"
+                        android:text="@string/trans_new"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/trans_mfrom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/avenir_light"
+                        android:text="@string/location_from"
+                        android:textColor="#ffffff"
+                        android:textSize="9sp" />
+
+                    <TextView
+                        android:id="@+id/trans_from"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/my_spinner"
+                        android:ems="10"
+                        android:fontFamily="@font/avenir_light"
+                        android:gravity="center|left"
+                        android:hint="@string/mfrom"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/DD_Option"
+                        android:textColorHint="@color/DD_Basic"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/trans_mto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/avenir_light"
+                        android:text="@string/location_to"
+                        android:textColor="#ffffff"
+                        android:textSize="9sp" />
+
+                    <TextView
+                        android:id="@+id/trans_to"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/my_spinner"
+                        android:ems="10"
+                        android:fontFamily="@font/avenir_light"
+                        android:gravity="center|left"
+                        android:hint="@string/mto"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/DD_Option"
+                        android:textColorHint="@color/DD_Basic"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/trans_mcon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/avenir_light"
+                        android:text="@string/content"
+                        android:textColor="#ffffff"
+                        android:textSize="9sp" />
+
+                    <EditText
+                        android:id="@+id/trans_con"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/my_spinner"
+                        android:ems="10"
+                        android:fontFamily="@font/avenir_light"
+                        android:hint="@string/mcon"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/DD_Option"
+                        android:textColorHint="@color/DD_Basic"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/trans_mload"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/avenir_light"
+                        android:text="@string/trans_load"
+                        android:textColor="#ffffff"
+                        android:textSize="9sp" />
+
+                    <EditText
+                        android:id="@+id/trans_load"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/my_spinner"
+                        android:ems="10"
+                        android:fontFamily="@font/avenir_light"
+                        android:hint="@string/mtrans_load"
+                        android:inputType="number"
+                        android:textColor="@color/DD_Option"
+                        android:textColorHint="@color/DD_Basic"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/trans_submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/submit"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:paddingLeft="40dp"
+                        android:paddingRight="40dp"
+                        android:text="@string/show"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

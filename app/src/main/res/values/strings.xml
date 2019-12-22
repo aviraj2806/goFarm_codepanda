@@ -1,0 +1,362 @@
+<resources>
+    <string name="app_name">goFarm</string>
+    <string name="expand">GoFarm is a perfect solution which offer end to end agriculture services to Indian farmers with an aim to improve the efficiencies of agriculture value chain.\nGoFarm connects farmers all over India to their various needs – Seeds, fertilizers, equipment, crop advisory, bank loans, government schemes and market linkage through a wide network of trained micro entrepreneurs.</string>
+
+    <string name="google_maps_key">AIzaSyAYvwVkxN9YDhgqDgZNHCirefnpLPHSfoU</string>
+
+    <string-array name="select">
+        <item>Select User</item>
+        <item>Farmer</item>
+        <item>Trader</item>
+    </string-array>
+
+    <string-array name="city">
+        <item>Select City</item>
+        <item>Pune</item>
+        <item>Nashik</item>
+        <item>Mumbai</item>
+        <item>Nagpur</item>
+        <item>Aurangabad</item>
+    </string-array>
+
+    <string-array name="crop">
+        <item>Select Crop</item>
+        <item>Onion</item>
+        <item>Potatoes</item>
+        <item>Tomatoes</item>
+    </string-array>
+
+    <string-array name="market">
+        <item>Select Market Yard</item>
+        <item>Lasalgaon</item>
+        <item>Pune Kothrud</item>
+        <item>Pimpri</item>
+    </string-array>
+
+    <string-array name="bank">
+        <item>Select Bank</item>
+        <item>HDFC Bank</item>
+        <item>State Bank Of India</item>
+        <item>Axis Bank</item>
+        <item>Union Bank Of India</item>
+        <item>Apply For All Banks</item>
+    </string-array>
+
+
+    <string-array name="bank1">
+        <item>Select Bank</item>
+        <item>HDFC Bank</item>
+        <item>State Bank Of India</item>
+        <item>Axis Bank</item>
+        <item>Union Bank Of India</item>
+    </string-array>
+
+    <string-array name="scheme_cat">
+        <item>Select Category</item>
+        <item>Show All</item>
+        <item>Breeding</item>
+        <item>Credit Card</item>
+        <item>Crop Insurance</item>
+        <item>Irrigation</item>
+        <item>Soil Health</item>
+    </string-array>
+
+    <string-array name="schemes">
+        <item>Select Scheme</item>
+        <item>KCC</item>
+        <item>PMFBY</item>
+        <item>PMKSY</item>
+        <item>RGM</item>
+        <item>SHCS</item>
+
+    </string-array>
+
+    <string-array name="lang">
+        <item>English</item>
+        <item>हिंदी</item>
+        <item>मराठी</item>
+    </string-array>
+
+    //pmfby
+    <string name="pmfby_object">Pradhan Mantri Fasal Bima Yojana (PMFBY) aims at supporting sustainable production in agriculture sector by way of - \n
+a) Providing financial support to farmers suffering crop loss/damage arising out of unforeseen events\n
+b) Stabilizing the income of farmers to ensure their continuance in farming\n
+c) Encouraging farmers to adopt innovative and modern agricultural practices\n
+d) Ensuring flow of credit to the agriculture sector; which will contribute to food security, crop diversification and enhancing growth and competitiveness of agriculture sector besides protecting farmers from production risks.
+</string>
+    <string name="pmfby_head">The PMFBY was launched in 2016 and replaces all the prevailing yield insurance schemes in India. The scheme has been launched with an impetus on crop sector.\n The scheme has extended coverage under localized risks, post-harvest losses etc. and aims at adoption of technology for the purpose of yield estimation. Through increased farmer awareness and low farmer premium rates the scheme aims at increasing the crop insurance penetration in India.</string>
+
+    <string name="pmfby_link">https://pmfby.gov.in/</string>
+
+    //pmksy
+    <string name="pmsky_head">Launched on 1st July, 2015 with the motto of "Har Khet Ko Paani", the Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) is being implemented to expand cultivated area with assured irrigation, reduce wastage of water and improve water use efficiency.\nPMKSY not only focuses on creating sources for assured irrigation, but also creating protective irrigation by harnessing rain water at micro level through "Jal Sanchay" and "Jal Sinchan". Micro irrigation is also incentivized through subsidy to ensure "Per drop-More crop".
+PMKSY will be supervised and monitored by an Inter-Ministerial National Steering Committee (NSC) will be constituted under the Chairmanship of Prime Minister with Union Ministers from concerned Ministries. A National Executive Committee (NEC) will be constituted under the Chairmanship of Vice Chairman, NITI Aayog to oversee programme implementation, allocation of resources, inter ministerial coordination, monitoring and performance assessment, addressing administrative issues etc.
+</string>
+    <string name="pmksy_object">•	Achieve convergence of investments in irrigation at the field level (preparation of district level and, if required, sub district level water use plans).\n
+•	Enhance the physical access of water on the farm and expand cultivable area under assured irrigation (Har Khet Ko Pani).\n
+•	Integration of water source, distribution and its efficient use, to make best use of water through appropriate technologies and practices.\n
+•	Improve on - farm water use efficiency to reduce wastage and increase availability both in duration and extent.\n
+•	Enhance the adoption of precision - irrigation and other water saving technologies (More Crop Per Drop).\n
+•	Enhance recharge of aquifers and introduce sustainable water conservation practices.\n
+•	Ensure the integrated development of rainfed areas using the watershed approach towards soil and water conservation, regeneration of ground water, arresting runoff, providing livelihood options and other NRM activities.\n
+•	Promote extension activities relating to water harvesting, water management and crop alignment for farmers and grass root level field functionaries. \n
+•	Explore the feasibility of reusing treated municipal waste water for peri-urban agriculture.\n
+</string>
+    <string name="pmksy_link">https://pmksy.gov.in/</string>
+
+    //kcc
+    <string name="kcc_head">This scheme was launched to provide timely and adequate credit to farmers to meet their production credit needs (cultivation expenses) besides meeting contingency expenses, and expenses related to ancillary activities through simplified procedure facilitating availment of the loans as and when needed.</string>
+    <string name="kcc_object">The scheme aims at providing adequate and timely cred it for the comprehensive credit requirements of farmers under single window for their cultivation and other needs as indicated below:\n
+•	To meet the short term credit requirements for cultivation of crops\n
+•	Post harvest expenses \n
+•	Produce Marketing loan \n
+•	Consumption requirements of farmer household\n
+•	Working capital for maintenance of farm assets, activities allied to agriculture, like dairy animals, inland fishery and also working capital required for floriculture, horticulture etc.\n
+•	Investment credit requirement for agriculture and allied activities like pump sets, sprayers, dairy animals, floriculture, horticulture etc\n
+•	Short term credit requirements of rearing of animals, birds, fish, shrimp, other aquatic organisms, capture of fish.\n
+</string>
+
+    <string name="kcc_link">https://www.sbi.co.in/portal/web/agriculture-banking/kcc</string>
+
+    //rgm
+    <string name="rgm_head">Rashtriya Gokul Mission (RGM) has been launched in December 2014 with an outlay of Rs 2025 crore for development and conservation of indigenous breeds through selective breeding in the breeding tract and genetic upgradation of nondescript bovine population.\n The scheme comprises of two components namely National Programme for Bovine Breeding (NPBB) and National Mission on Bovine Productivity (NMBP).</string>
+    <string name="rgm_object">➢ Development and conservation of indigenous breeds.\n➢ Breed improvement programme for indigenous breeds so as to improve the genetic makeup and increase the stock\n➢ Enhancing milk  production and productivity of bovine population by increasing disease free high genetic merit female population and  check on spread of diseases\n➢ Upgrading nondescript cattle using elite indigenous breeds like Gir, Sahiwal, Rathi, Deoni, Tharparkar,  Red Sindhi\n➢   Distribution of disease free high genetic merit bulls for natural service\n➢ To bring all breedable females under organised breeding through AI or natural service using germ plasm of high genetic merits\n➢ To arrange quality Artificial Insemination (AI) services at farmers’ doorstep\n➢ To create e-market portal for bovine germplasm for connecting breeders and farmers
+\n➢ To increase trade of livestock and livestock products by meeting out sanitary and phyto sanitary (SPS) issues\n➢ To select breeding bulls of high genetic merit at a young age through application of genomics.
+</string>
+    <string name="rgm_link">http://dahd.nic.in/rashtriya-gokul-mission</string>
+
+    //shcs
+    <string name="shcs_head">A Soil Health Card is used to assess the current status of soil health and, when used over time, to determine changes in soil health that are affected by land management.\n A Soil Health Card displays soil health indicators and associated descriptive terms. The indicators are typically based on farmers\' practical experience and knowledge of local natural resources. The card lists soil health indicators that can be assessed without the aid of technical or laboratory equipment.\n
+    Soil Health Card (SHC) is a Government of India\'s scheme promoted by the Department of Agriculture and Co-operation under the Ministry of Agriculture and Farmers\' Welfare. It is being implemented through the Department of Agriculture of all the State and Union Territory Governments.
+    Soil Health Card Scheme is a very beneficial scheme for farmers. There are many farmers in India. And they do not know which types of crops they should grow to get maximum yield. Basically, they do not know the quality and the type of their soil. They might know by experience what crops grow and what crops fail. But they don\'t know what they can do to improve the condition of the soil.
+</string>
+    <string name="shcs_object">
+•	The scheme will monitor the soil of the farmers well and will give them a formatted report. So, they can decide well which crops they should cultivate and which ones they should skip.\n
+•	The authorities will monitor the soil on a regular basis. One in every 3 years, they will provide a report to farmers. So, farmers need not worry if the nature of the soil changes due to certain factors. Also, they will always have updated data about their soil.\n
+•	The work of the government does not stop at listing down measures required to improve the quality of the soil. In fact, they will also employ experts to help farmers in carrying out the corrective measures.\n
+•	Farmers will get a proper soil health record, thanks to the Soil Health Card Scheme. Also, they can study the soil management practices. Accordingly, they can plan the future of their crops and land.\n
+•	Generally, in government schemes, the person carrying out the study for a particular farmer gets changed. But in the Soil Health Card Scheme, the government is paying attention that the same person carries out soil analysis for a farmer. This will further enhance the effectiveness of the scheme.\n
+•	The soil card will give the farmers a proper idea of which nutrients their soil is lacking. And hence, which crops they should invest in. they will also tell which fertilizers they need. So, ultimately, the crop yield will see a rise.\n
+•	The main aim behind the scheme was to find out the type of particular soil. And then provide ways in which we can improve it. Even if a soil has some limitations, we can do something to get the most out of it. And that is what the government is trying to do with the help of this scheme.\n
+</string>
+    <string name="shcs_link">https://soilhealth.dac.gov.in/</string>
+    <string name="title_activity_transport">Map</string>
+
+
+    <string name="button_current_place">Current Place</string>
+    <string name="button_autocomplete">Autocomplete</string>
+    <string name="google_play_services_error">Google Play Services is not available</string>
+    <string name="location_permission_error">Location permission required</string>
+    <string name="autocomplete">Autocomplete</string>
+    <string name="place_picker">Place Picker</string>
+    <string name="autocomplete_fragment">Autocomplete Fragment</string>
+
+    <string name="title">goFarm</string>
+    <string name="tagline">Now farm smart with go farm...</string>
+    <string name="load">Loading...</string>
+    <string name="mfpass">Password Successfully sent to registered mobile number. Please login and keep your credentials safe.</string>
+    <string name="fpass_id">Enter User ID</string>
+    <string name="fpass_otp">Enter OTP</string>
+    <string name="mfpass_otp">OTP SENT TO REGISTERED MOBILE NUMBER</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="mfpass_man">**Password will be sent to your registered mobile number</string>
+    <string name="hplog_id">User ID</string>
+    <string name="hplog_pass">Password</string>
+    <string name="hplog_fpass">Forgot Password ?</string>
+    <string name="log_in">Log In</string>
+    <string name="signup">New to goFarm ?</string>
+    <string name="signup2">Sign Up</string>
+    <string name="change_language_n">Change Language</string>
+    <string name="hp_about">About Us</string>
+    <string name="hp_follow">Follow Us</string>
+
+
+    <string name="register">Sign Up</string>
+    <string name="mreg_ut">USER TYPE</string>
+    <string name="mreg_name">NAME</string>
+    <string name="reg_name">Enter Name</string>
+    <string name="mreg_phn">CONTACT NUMBER</string>
+    <string name="reg_phn">Enter Contact Number</string>
+    <string name="mreg_uid">AADHAR NUMBER</string>
+    <string name="reg_uid">Enter Aadhar Number</string>
+    <string name="mreg_city">CITY</string>
+    <string name="reg_id">Create User ID</string>
+    <string name="reg_pass">Create Password</string>
+    <string name="mreg_cpass">Confirm Password</string>
+
+    <string name="reg_toast">Registered Successfully</string>
+
+    <string name="fdash_dp">Upload Profile Picture</string>
+    <string name="fdash_logout">Log Out</string>
+    <string name="fdash_aa">Arrival Statistics</string>
+    <string name="fdash_adv">Agri Advisor</string>
+    <string name="fdash_loan">Bank Loans</string>
+    <string name="fdash_govt">Govt. Schemes</string>
+    <string name="fdash_trans">Transport</string>
+    <string name="fdash_price">Price Info.</string>
+    <string name="fdash_agri">Agri Shop</string>
+    <string name="fdash_earn">Earn Rewards</string>
+    <string name="fdash_demand">Trader Demand</string>
+    <string name="fdash_sell">Sell Crop</string>
+
+    <string name="fdash_aa1">\nArrival Statistics</string>
+    <string name="fdash_adv1">\nAgri Advisor</string>
+    <string name="fdash_loan1">\nBank Loans</string>
+    <string name="fdash_govt1">\nGovt. Schemes</string>
+    <string name="fdash_trans1">\nTransport</string>
+    <string name="fdash_price1">\nPrice Info.</string>
+    <string name="fdash_agri1">\nAgri Shop</string>
+    <string name="fdash_earn1">\nEarn Rewards</string>
+    <string name="fdash_demand1">\nTrader Demand</string>
+    <string name="fdash_sell1">\nSell Crop</string>
+
+    <string name="hp_validuser">Enter a valid User ID</string>
+    <string name="fp_pass_sent">Password Sent Successfully</string>
+    <string name="fpass_incotp">Incorrect OTP</string>
+    <string name="lofincpass">Incorrect Password</string>
+    <string name="log_invaliduser">Invalid User</string>
+
+    <string name="allfields">Please enter all fields.</string>
+
+    <string name="arr_current">Current Status</string>
+    <string name="marr_my">SELECT MARKET YARD</string>
+    <string name="marr_crop">SELECT CROP</string>
+    <string name="arr_add">Add to arrival</string>
+    <string name="marr_quan">ENTER AMOUNT IN QUINTALS</string>
+    <string name="arr_quan">Enter amount of crop</string>
+    <string name="quan">Quintals of</string>
+    <string name="arrsuc">has been successfully added to expected arrivals for bidding in</string>
+    <string name="arr_final">Market</string>
+    <string name="arr_m2">The bidding will start tomorrow at 07:00Hrs.</string>
+    <string name="arr_m3">You can check the current status for total arrivals.</string>
+    <string name="happyfarming">Happy Farming,</string>
+    <string name="gofarm">Go Farm.</string>
+    <string name="arr_m4">As of</string>
+    <string name="arr_m6">has been expected to arrive for bidding in</string>
+
+    <string name="q1">Need help with fertilizers/pesticides ?</string>
+    <string name="qhint">Please type in your query here.</string>
+    <string name="q2">Need help with irrigation method\'s ?</string>
+    <string name="q3">Need help with farming process for a particular crop ?</string>
+    <string name="q4">Had a pest attack in your farm ?</string>
+    <string name="qattach">Attach a picture for better advise.</string>
+    <string name="q5">Any other query related to farming/application ?</string>
+    <string name="qempty">Query cannot be empty.</string>
+    <string name="qref">Reference ID :</string>
+    <string name="qsuc">Your query have been successfully submitted.</string>
+    <string name="qcall">You will receive a call from our representative soon.</string>
+    <string name="qfur">Please note your Reference ID for further communication.</string>
+    <string name="thankyou">Thank You for your co-operation.</string>
+    <string name="teamgo">Team Go Farm.</string>
+    <string name="qupload">Picture Uploaded.</string>
+
+    <string name="loansub">Application Successfully Submited</string>
+    <string name="loan_sb">Select Bank</string>
+    <string name="loan_namepan">ENTER NAME AS PER PAN</string>
+    <string name="dob_pan">ENTER D.O.B AS PER PAN</string>
+    <string name="dob_Select">Select D.O.B</string>
+    <string name="phn_pan">ENTER CONTACT REGISTERED WITH PAN</string>
+    <string name="pan">ENTER PAN NUMBER</string>
+    <string name="mpan">Enter PAN number</string>
+    <string name="mincome">ENTER MONTHLY INCOME</string>
+    <string name="income">Enter monthly income</string>
+    <string name="mmonths">ENTER AMOUNT OF LOAN YOU WANT</string>
+    <string name="months">Enter amount of loan</string>
+    <string name="period">ENTER PERIOD FOR LOAN IN MONTH\'S</string>
+    <string name="mperiod">Enter period for loan</string>
+    <string name="loanalready">Loan Application Already Submitted</string>
+    <string name="qsoon">Please give us some time to process your application.We are currently working on your application and you will be notified soon.</string>
+
+    <string name="govt_choose">Choose a right scheme</string>
+    <string name="p_m_f_b_y">P.M.F.B.Y</string>
+    <string name="p_m_k_s_y">P.M.K.S.Y</string>
+    <string name="k_c_c">K.C.C</string>
+    <string name="s_h_c_s">S.H.C.S</string>
+    <string name="r_g_m">R.G.M</string>
+    <string name="govt_catogery">SELECT CATEGORY</string>
+    <string name="govt_apply">Apply for scheme</string>
+    <string name="govt_scheme">SELECT SCHEME</string>
+    <string name="govt_bank">SELECT YOUR BANK</string>
+    <string name="govt_acc">ENTER ACCOUNT NUMBER</string>
+    <string name="enter_your_account_number">Enter Your Account Number</string>
+    <string name="apply">Apply</string>
+    <string name="introduction">Introduction :</string>
+    <string name="objective">Objective :</string>
+    <string name="govt_suc">Your application is sucessfully submitted.</string>
+    <string name="govt_call">You will shortly receive a call for further details and verification.</string>
+
+    <string name="pmfby">Pradhan Mantri Fasal Bima Yojana</string>
+    <string name="pmsky">Pradhan Mantri Krishi Sanchayee Yojana</string>
+    <string name="kcc">Kisan Credit Card</string>
+    <string name="rgm">Rashtriya Gokul Mission</string>
+    <string name="shcs">Soil Health Card Scheme</string>
+
+    <string name="t1">Balaji Transport</string>
+    <string name="c1">Contact : 9420484497</string>
+    <string name="call">Call</string>
+    <string name="request">Request</string>
+    <string name="t2">Sadashiv Transport</string>
+    <string name="c2">Contact : 9764955130</string>
+    <string name="t3">R.K. Roadlines</string>
+    <string name="c3">Contact : 9422257146</string>
+    <string name="t4">Sindh Transport</string>
+    <string name="c4">Contact : 7588703202</string>
+    <string name="t5">Punjab Transport</string>
+    <string name="c5">Contact : 8975588068</string>
+    <string name="trans_new">New Search</string>
+    <string name="location_from">LOCATION FROM</string>
+    <string name="mfrom">Select start location</string>
+    <string name="location_to">LOCATION TO</string>
+    <string name="mto">Select end location</string>
+    <string name="content">CONTENT</string>
+    <string name="mcon">Enter content</string>
+    <string name="trans_load">LOAD IN QUINTALS</string>
+    <string name="mtrans_load">Enter load in quintals</string>
+    <string name="show">Show</string>
+    <string name="subreq">Request successfully submitted to the Transporter.</string>
+    <string name="cont">Continue</string>
+    <string name="exit">Exit</string>
+    <string name="reqsuc">Requested Successfully</string>
+    <string name="cloc">Fetching current location..</string>
+
+    <string name="clog">Are you sure you want to logout?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="crop">Crop</string>
+    <string name="date">Date</string>
+    <string name="arrivals">Arrivals</string>
+    <string name="min_price">Min. Price</string>
+    <string name="max_price">Max. Price</string>
+    <string name="enter_date">ENTER DATE</string>
+    <string name="select_date">Select Date</string>
+    <string name="market2">Market</string>
+
+    <string name="update_price_info">Update Price Info</string>
+    <string name="enter_arrivals_in_quintals">ENTER ARRIVALS IN QUINTALS</string>
+    <string name="enter_arrival">Enter arrival</string>
+    <string name="enter_min_price_per_100_q">ENTER MIN. PRICE PER 100 Q</string>
+    <string name="enter_min_price">Enter min. price</string>
+    <string name="enter_max_price_per_100_q">ENTER MAX. PRICE PER 100 Q</string>
+    <string name="enter_max_price">Enter max. price</string>
+    <string name="redeem_for_arrivals">Redeem for Arrivals</string>
+    <string name="trayagain">Try again later.</string>
+    <string name="earn1">You need to use the \'Add to arrival\' feature atleast two consecutive days to avail the reward.</string>
+    <string name="congo">Congratulations!</string>
+    <string name="coupon">Your Coupon Code is :</string>
+    <string name="use">Use the following code to avail discount on your purchase in the Agri Shop.</string>
+    <string name="value">Thank You for your valuable time,</string>
+
+    <string name="no_entries_yet">No Entries Yet</string>
+    <string name="trytime">Please try again after some time.</string>
+
+    <string name="salereg">Crop Registered for Sale</string>
+    <string name="add_new">Add New</string>
+    <string name="scity">Select City</string>
+    <string name="traderint">We will contact you as soon as any Trader shows interest.</string>
+    <string name="change">Change Profile Picture</string>
+
+    <string name="myard">Select Market Yard</string>
+    <string name="mmcrop">Select Crop</string>
+
+</resources>

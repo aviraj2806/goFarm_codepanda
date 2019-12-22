@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">goFarm</string>
+
+    <string name="google_maps_key">AIzaSyAYvwVkxN9YDhgqDgZNHCirefnpLPHSfoU</string>
+
+
+    <string-array name="lang">
+        <item>English</item>
+        <item>हिंदी</item>
+        <item>मराठी</item>
+    </string-array>
+
+
+    <string name="title_activity_transport">Map</string>
+    <string name="button_current_place">Current Place</string>
+    <string name="button_autocomplete">Autocomplete</string>
+    <string name="google_play_services_error">Google Play Services is not available</string>
+    <string name="location_permission_error">Location permission required</string>
+    <string name="autocomplete">Autocomplete</string>
+    <string name="place_picker">Place Picker</string>
+    <string name="autocomplete_fragment">Autocomplete Fragment</string>
+
+
+    <string name="title">गोफार्म</string>
+    <string name="tagline">अब गोफार्म के साथ स्मार्ट खेती करें ...</string>
+    <string name="load">लोडिंग...</string>
+    <string name="mfpass">पासवर्ड सफलतापूर्वक पंजीकृत मोबाइल नंबर पर भेजा गया। कृपया लॉगिन करें और अपनी साख सुरक्षित रखें।</string>
+    <string name="fpass_id">उपयोगकर्ता आईडी दर्ज करें</string>
+    <string name="fpass_otp">OTP दर्ज करें</string>
+    <string name="mfpass_otp">OTP के लिए पंजीकृत मोबाइल नंबर की जाँच करें</string>
+    <string name="next">आगामी</string>
+    <string name="submit">जमा करें</string>
+    <string name="mfpass_man">**पासवर्ड आपके पंजीकृत मोबाइल नंबर पर भेजा जाएगा</string>
+    <string name="hplog_id">उपयोगकर्ता आईडी</string>
+    <string name="hplog_pass">पासवर्ड</string>
+    <string name="hplog_fpass">पासवर्ड भूल गए ?</string>
+    <string name="log_in">लॉग इन</string>
+    <string name="signup">कोई खाता नहीं है?</string>
+    <string name="signup2">साइन अप करें</string>
+    <string name="change_language_n">भाषा परिवर्तन</string>
+    <string name="hp_about">परिचय</string>
+    <string name="hp_follow">फॉलो उस</string>
+    <string name="expand">गोफार्म एक सही समाधान है जो कृषि मूल्य श्रृंखला की दक्षता में सुधार करने के उद्देश्य से भारतीय किसानों को कृषि सेवाएं प्रदान करता है।\nगोफार्म पूरे भारत में किसानों को उनकी विभिन्न आवश्यकताओं - बीज, उर्वरक, उपकरण, फसल सलाहकार, बैंक ऋण, सरकारी योजनाओं से जोड़ता है। और प्रशिक्षित सूक्ष्म उद्यमियों के एक विस्तृत नेटवर्क के माध्यम से बाजार में जुड़ाव।</string>
+
+    <string name="register">साइन अप</string>
+    <string name="mreg_ut">उपयोगकर्ता</string>
+    <string name="mreg_name">नाम</string>
+    <string name="reg_name">नाम दर्ज करे</string>
+    <string name="mreg_phn">संपर्क संख्या</string>
+    <string name="reg_phn">संपर्क संख्या दर्ज करें</string>
+    <string name="mreg_uid">आधार संख्या</string>
+    <string name="reg_uid">आधार संख्या दर्ज करें</string>
+    <string name="mreg_city">शहर</string>
+    <string name="reg_id">उपयोगकर्ता आईडी बनाएं</string>
+    <string name="reg_pass">पासवर्ड बनाएं</string>
+    <string name="mreg_cpass">पासवर्ड की पुष्टि कीजिये</string>
+
+    <string-array name="select">
+        <item>उपयोगकर्ता का चयन करें</item>
+        <item>किसान</item>
+        <item>व्यापारी</item>
+    </string-array>
+
+    <string-array name="city">
+        <item>शहर चुनें</item>
+        <item>पुणे</item>
+        <item>नासिक</item>
+        <item>मुंबई</item>
+        <item>नागपुर</item>
+        <item>औरंगाबाद</item>
+    </string-array>
+
+    <string name="reg_toast">सफलतापूर्वक पंजीकृत</string>
+
+    <string name="fdash_dp">प्रोफ़ाइल चित्र अपलोड करें</string>
+    <string name="fdash_logout">लोग आउट</string>
+    <string name="fdash_aa">आगमन सांख्यिकी</string>
+    <string name="fdash_adv">कृषि सलाहकार</string>
+    <string name="fdash_loan">बैंक ऋण</string>
+    <string name="fdash_govt">सरकारी योजनाएं</string>
+    <string name="fdash_trans">ट्रांसपोर्ट</string>
+    <string name="fdash_price">मूल्य जानकारी</string>
+    <string name="fdash_agri">एग्री शॉप</string>
+    <string name="fdash_earn">इनाम प्राप्ति</string>
+    <string name="fdash_demand">व्यापारी की माँग</string>
+    <string name="fdash_sell">फसल बेचो</string>
+
+    <string name="fdash_aa1">\nआगमन सांख्यिकी</string>
+    <string name="fdash_adv1">\nकृषि सलाहकार</string>
+    <string name="fdash_loan1">\nबैंक ऋण</string>
+    <string name="fdash_govt1">\nसरकारी योजनाएं</string>
+    <string name="fdash_trans1">\nट्रांसपोर्ट</string>
+    <string name="fdash_price1">\nमूल्य जानकारी</string>
+    <string name="fdash_agri1">\nएग्री शॉप</string>
+    <string name="fdash_earn1">\nइनाम प्राप्ति</string>
+    <string name="fdash_demand1">\nव्यापारी की माँग</string>
+    <string name="fdash_sell1">\nफसल बेचो</string>
+
+    <string name="hp_validuser">मान्य उपयोगकर्ता आईडी दर्ज करें</string>
+    <string name="fp_pass_sent">पासवर्ड सफलतापूर्वक पंजीकृत मोबाइल नंबर पर भेजा गया</string>
+    <string name="fpass_incotp">गलत OTP</string>
+    <string name="lofincpass">गलत पासवर्ड</string>
+    <string name="log_invaliduser">अमान्य उपयोगकर्ता</string>
+
+    <string name="allfields">कृपया सभी फ़ील्ड दर्ज करें।</string>
+
+    <string name="arr_current">वर्तमान स्थिति</string>
+    <string name="marr_my">मार्क यार्ड का चयन करें</string>
+    <string name="marr_crop">फसल का चयन करें</string>
+    <string name="arr_add">आगमन में फसल जोड़ें</string>
+    <string name="marr_quan">क्विंटल में फसल की मात्रा दर्ज करें</string>
+    <string name="arr_quan">फसल की मात्रा दर्ज करें</string>
+    <string name="quan">क्विंटल</string>
+    <string name="arrsuc">बोली लगाने के लिए अपेक्षित आगमन में सफलतापूर्वक</string>
+    <string name="arr_final">बाजार में जोड़ा गया है</string>
+    <string name="arr_m2">बोली कल 07: 00 बजे शुरू होगी</string>
+    <string name="arr_m3">आप कुल आवक के लिए वर्तमान स्थिति की जांच कर सकते हैं</string>
+    <string name="happyfarming">खुश्दायक खेती,</string>
+    <string name="gofarm">गोफार्म</string>
+    <string name="arr_m4">निम्नलिखित समय अनुसार,\n</string>
+    <string name="arr_m6">बोली लगाने के लिए</string>
+
+    <string-array name="crop">
+        <item>फसल का चयन करें</item>
+        <item>प्याज</item>
+        <item>आलू</item>
+        <item>टमाटर</item>
+    </string-array>
+
+    <string-array name="market">
+        <item>मार्क यार्ड का चयन करें</item>
+        <item>लासलगांव</item>
+        <item>पुणे कोथ्रुड</item>
+        <item>पिंपरी</item>
+    </string-array>
+
+    <string name="q1">उर्वरकों / कीटनाशकों के लिये मदद चाहिए?</string>
+    <string name="qhint">कृपया अपनी क्वेरी यहाँ लिखें।</string>
+    <string name="q2">सिंचाई विधि के लिये मदद चाहिए?</string>
+    <string name="q3">किसी विशेष फसल के लिए खेती की प्रक्रिया में मदद चाहिए?</string>
+    <string name="q4">क्या आपके खेत में कीट का हमला हुआ है?</string>
+    <string name="qattach">बेहतर सलाह के लिए एक तस्वीर संलग्न करें</string>
+    <string name="q5">खेती / आवेदन से संबंधित कोई अन्य प्रश्न?</string>
+    <string name="qempty">क्वेरी खाली नहीं हो सकती</string>
+    <string name="qref">संदर्भ आयडी:</string>
+    <string name="qsuc">आपकी क्वेरी सफलतापूर्वक सबमिट कर दी गई है।</string>
+    <string name="qcall">आपको जल्द ही हमारे प्रतिनिधि का फोन आएगा।</string>
+    <string name="qfur">कृपया आगे के संचार के लिए अपनी संदर्भ आईडी नोट करें।</string>
+    <string name="thankyou">आपके सहयोग के लिए धन्यवाद।</string>
+    <string name="teamgo">टीम गोफार्म।</string>
+    <string name="qupload">चित्र अपलोड किया गया।</string>
+
+    <string name="loansub">सफलतापूर्वक आवेदन प्रस्तुत किया गया</string>
+    <string name="loan_sb">बैंक का चयन करें</string>
+    <string name="loan_namepan">पैन के अनुसार नाम दर्ज करें</string>
+    <string name="dob_pan">पैन के अनुसार डी.ओ.बी. दर्ज करें</string>
+    <string name="dob_Select">डी.ओ.बी. का चयन करें</string>
+    <string name="phn_pan">पैन के साथ पंजीकृत संपर्क दर्ज करें</string>
+    <string name="pan">पैन नंबर डालें</string>
+    <string name="mpan">पैन नंबर डालें</string>
+    <string name="mincome">मासिक आय दर्ज करें</string>
+    <string name="income">मासिक आय दर्ज करें</string>
+    <string name="mmonths">ऋण की राशि दर्ज करें</string>
+    <string name="months">ऋण की राशि दर्ज करें</string>
+    <string name="period">ऋण के लिए अवधि दर्ज करें</string>
+    <string name="mperiod">ऋण के लिए अवधि दर्ज करें</string>
+    <string name="loanalready">ऋण आवेदन पहले से प्रस्तुत है</string>
+    <string name="qsoon">कृपया हमें अपना आवेदन संसाधित करने के लिए कुछ समय दें। हम वर्तमान में आपके आवेदन पर काम कर रहे हैं और आपको जल्द ही सूचित किया जाएगा।</string>
+
+    <string-array name="bank">
+        <item>बैंक का चयन करें</item>
+        <item>एचडीएफसी बँक</item>
+        <item>भारतीय स्टेट बँक</item>
+        <item>ऐक्सिस बैंक</item>
+        <item>यूनियन बैंक ऑफ इंडिया</item>
+        <item>सभी बैंकों</item>
+    </string-array>
+
+    <string-array name="bank1">
+        <item>बैंक का चयन करें</item>
+        <item>एचडीएफसी बँक</item>
+        <item>भारतीय स्टेट बँक</item>
+        <item>ऐक्सिस बैंक</item>
+        <item>यूनियन बैंक ऑफ इंडिया</item>
+    </string-array>
+
+    <string name="govt_choose">सही योजना चुनें</string>
+    <string name="p_m_f_b_y">पी.एम.एफ.बी.वाय</string>
+    <string name="p_m_k_s_y">पी.एम.के.एस.वाय</string>
+    <string name="k_c_c">के.सी.सी.</string>
+    <string name="s_h_c_s">एस.एच.सी.एस.</string>
+    <string name="r_g_m">आर.जी.एम.</string>
+    <string name="govt_catogery">श्रेणी का चयन करें</string>
+    <string name="govt_apply">योजना के लिए आवेदन करें</string>
+    <string name="govt_scheme">योजना का चयन करें</string>
+    <string name="govt_bank">अपना बैंक चुनें</string>
+    <string name="govt_acc">बैंक खाता संख्या दर्ज करें</string>
+    <string name="enter_your_account_number">बैंक खाता संख्या दर्ज करें</string>
+    <string name="apply">लागू करें</string>
+    <string name="introduction">परिचय :</string>
+    <string name="objective">उद्देश्य :</string>
+    <string name="govt_suc">आपका आवेदन सफलतापूर्वक जमा कर दिया गया है।</string>
+    <string name="govt_call">आपको जल्द ही आगे के विवरण और सत्यापन के लिए एक कॉल प्राप्त होगी।</string>
+
+    <string-array name="scheme_cat">
+        <item>श्रेणी का चयन करें</item>
+        <item>सब</item>
+        <item>ब्रीडिंग</item>
+        <item>क्रेडिट कार्ड</item>
+        <item>फसल बीमा</item>
+        <item>सिंचाई</item>
+        <item>मृदा स्वास्थ्य</item>
+    </string-array>
+
+    <string-array name="schemes">
+        <item>योजना का चयन करें</item>
+        <item>के.सी.सी.</item>
+        <item>पी.एम.एफ.बी.वाय</item>
+        <item>पी.एम.के.एस.वाय</item>
+        <item>आर.जी.एम.</item>
+        <item>एस.एच.सी.एस.</item>
+
+    </string-array>
+
+    //pmfby
+    <string name="pmfby_object">प्रधानमंत्री कृषि बीमा योजना (पीएमएफबीवाई) का उद्देश्य कृषि क्षेत्र में टिकाऊ उत्पादन का समर्थन करना है - \n
+क) अप्रत्याशित घटनाओं से उत्पन्न फसल हानि / क्षति से पीड़ित किसानों को वित्तीय सहायता प्रदान करना\n
+बी) किसानों की आय को स्थिर करना ताकि खेती में उनकी निरंतरता सुनिश्चित हो सके\n
+ग) किसानों को नवीन और आधुनिक कृषि पद्धतियों को अपनाने के लिए प्रोत्साहित करना\n
+d) कृषि क्षेत्र में ऋण का प्रवाह सुनिश्चित करना; जो किसानों को उत्पादन जोखिमों से बचाने के अलावा खाद्य सुरक्षा, फसल विविधीकरण और कृषि क्षेत्र की वृद्धि और प्रतिस्पर्धा को बढ़ाने में योगदान देगा।</string>
+    <string name="pmfby_head">PMFBY 2016 में लॉन्च किया गया था और भारत में सभी प्रचलित उपज बीमा योजनाओं की जगह लेता है। योजना को फसल क्षेत्र पर एक प्रोत्साहन के साथ लॉन्च किया गया है। \n योजना ने स्थानीय जोखिमों, कटाई के बाद के नुकसान आदि के तहत कवरेज को बढ़ाया है और उपज आकलन के उद्देश्य के लिए प्रौद्योगिकी को अपनाने का लक्ष्य रखा गया है। किसान जागरूकता और कम किसान प्रीमियम दरों के माध्यम से इस योजना का उद्देश्य भारत में फसल बीमा पैठ बढ़ाना है।
+</string>
+    <string name="pmfby_link">https://pmfby.gov.in/</string>
+
+    //pmksy
+    <string name="pmsky_head">1 जुलाई, 2015 को "हर खेत को पानी" के उद्देश्य के साथ शुरू की गई, प्रधानमंत्री कृषि सुरक्षा योजना (PMKSY) को सुनिश्चित सिंचाई के साथ खेती के क्षेत्र का विस्तार करने, पानी की बर्बादी कम करने और पानी के उपयोग की दक्षता में सुधार करने के लिए लागू किया जा रहा है। \nPMKSY नहीं केवल सुनिश्चित सिंचाई के लिए स्रोत बनाने पर ध्यान केंद्रित करता है, लेकिन "जलसंचय" और "जल सिनचन" के माध्यम से सूक्ष्म स्तर पर वर्षा जल का दोहन करके सुरक्षात्मक सिंचाई भी करता है। "प्रति बूंद-अधिक फसल" सुनिश्चित करने के लिए सब्सिडी के माध्यम से सूक्ष्म सिंचाई को प्रोत्साहित किया जाता है।\n
+पीएमकेएसवाई की देखरेख और निगरानी एक अंतर-मंत्रालयी राष्ट्रीय संचालन समिति (एनएससी) द्वारा की जाएगी, जिसका गठन संबंधित मंत्रालयों के केंद्रीय मंत्रियों के साथ प्रधान मंत्री की अध्यक्षता में किया जाएगा। कार्यक्रम के कार्यान्वयन, संसाधनों के आवंटन, अंतर मंत्रालयी समन्वय, निगरानी और प्रदर्शन मूल्यांकन, प्रशासनिक मुद्दों को संबोधित करने आदि की निगरानी के लिए उपाध्यक्ष, NITI Aayog की अध्यक्षता में एक राष्ट्रीय कार्यकारी समिति (NEC) का गठन किया जाएगा।
+</string>
+    <string name="pmksy_object">• क्षेत्र स्तर पर सिंचाई में निवेश के अभिसरण को प्राप्त करना (जिला स्तर की तैयारी और, यदि आवश्यक हो, तो उप जिला स्तर के पानी के उपयोग की योजना है।\n
+• खेत पर पानी की भौतिक पहुँच बढ़ाएँ और सुनिश्चित सिंचाई (हर खेत को पानी) के तहत खेती योग्य क्षेत्र का विस्तार करें। \n
+• पानी का स्रोत, वितरण और इसके कुशल उपयोग का एकीकरण, उपयुक्त तकनीकों और प्रथाओं के माध्यम से पानी का सर्वोत्तम उपयोग करना। \n
+• सुधार - खेत के पानी का उपयोग दक्षता को कम करने के लिए अपव्यय और अवधि और सीमा दोनों में उपलब्धता बढ़ाने के लिए। \n
+• परिशुद्धता को अपनाना - सिंचाई और अन्य पानी की बचत प्रौद्योगिकियों (अधिक फसल प्रति बूंद)। \n
+• एक्वीफर्स के पुनर्भरण को बढ़ाना और स्थायी जल संरक्षण प्रथाओं को लागू करना। \n
+• मृदा और जल संरक्षण, भूजल के पुनर्जनन, अपवाह को गिरफ्तार करने, आजीविका विकल्प और अन्य NRM गतिविधियों को प्रदान करने के लिए वाटरशेड दृष्टिकोण का उपयोग करके वर्षा आधारित क्षेत्रों का एकीकृत विकास सुनिश्चित करें। \n
+• किसानों और घास के स्तर के क्षेत्र के अधिकारियों के लिए जल संचयन, जल प्रबंधन और फसल संरेखण से संबंधित विस्तार गतिविधियों को बढ़ावा देना। \n
+• पेरी-शहरी कृषि के लिए उपचारित नगरपालिका अपशिष्ट जल के पुन: उपयोग की व्यवहार्यता का अन्वेषण करें। \n</string>
+    <string name="pmksy_link">https://pmksy.gov.in/</string>
+
+    //kcc
+    <string name="kcc_head">यह योजना किसानों को समय पर और पर्याप्त ऋण प्रदान करने के लिए शुरू की गई थी, ताकि आकस्मिक व्यय को पूरा करने के अलावा अपनी उत्पादन ऋण जरूरतों (खेती के खर्चों) को पूरा किया जा सके, और सरलीकृत प्रक्रिया के माध्यम से सहायक गतिविधियों से संबंधित खर्चों के रूप में और जब जरूरत हो, ऋण के लाभ की सुविधा प्रदान की जा सके।
+</string>
+    <string name="kcc_object">
+इस योजना का उद्देश्य किसानों को उनकी खेती और अन्य जरूरतों के लिए एकल खिड़की के तहत पर्याप्त और समय पर ऋण उपलब्ध कराना है, जैसा कि संकेत दिया गया है:\n
+• फसलों की खेती के लिए अल्पकालिक ऋण आवश्यकताओं को पूरा करने के लिए
+फसल कटाई के बाद खर्च करें\n
+• विपणन ऋण का निर्माण करें\n
+• किसान परिवार की उपभोग आवश्यकताओं \n
+• कृषि परिसंपत्तियों के रख-रखाव के लिए कार्यशील पूंजी, कृषि से जुड़ी गतिविधियाँ, जैसे डेयरी पशु, अंतर्देशीय मत्स्य और फूलों की खेती, बागवानी आदि के लिए आवश्यक कार्यशील पूंजी \n
+• कृषि और संबद्ध गतिविधियों जैसे पंप सेट, स्प्रेयर, डेयरी पशु, पुष्पकृषि, बागवानी आदि के लिए निवेश की आवश्यकता\n
+• पशु, पक्षी, मछली, झींगा, अन्य जलीय जीवों, मछलियों को पकड़ने का पालन करने की अल्पावधि क्रेडिट आवश्यकताओं।\n
+</string>
+
+    <string name="kcc_link">https://www.sbi.co.in/portal/web/agriculture-banking/kcc</string>
+
+    //rgm
+    <string name="rgm_head">
+राष्ट्रीय गोकुल मिशन (आरजीएम) को दिसंबर 2014 में प्रजनन पथ में चयनात्मक प्रजनन के माध्यम से स्वदेशी नस्लों के विकास और संरक्षण के लिए 2025 करोड़ रुपये के परिव्यय के साथ शुरू किया गया है और नॉनड्राफ्ट गोजातीय आबादी के आनुवंशिक उन्नयन में है।\nइस योजना में दो घटक शामिल हैं। गोजातीय प्रजनन के लिए राष्ट्रीय कार्यक्रम (एनपीबीबी) और गोजातीय उत्पादकता पर राष्ट्रीय मिशन (एनएमबीपी)।</string>
+    <string name="rgm_object">स्वदेशी नस्लों का विकास और संरक्षण स्वदेशी नस्लों के लिए नस्ल सुधार कार्यक्रम ताकि जेनेटिक मेकअप को बेहतर बनाया जा सके और स्टॉक में वृद्धि हो सके रोग मुक्त उच्च आनुवांशिक दलित महिला आबादी और जाँच द्वारा गोजातीय जनसंख्या के दूध उत्पादन और उत्पादकता को बढ़ाना। बीमारियां फैलने पर गिर, साहिवाल, राठी, देवनी, थारपारकर, लाल सिंधी जैसे कुलीन देशी नस्लों का उपयोग करके मवेशियों को अपग्रेड करना, प्राकृतिक सेवा के लिए रोग मुक्त उच्च आनुवंशिक योग्यता वाले बैल का वितरण सभी प्रजनन योग्य मादाओं के तहत लाना उच्च आनुवंशिक गुणों के रोगाणु का उपयोग करके एआई या प्राकृतिक सेवा के माध्यम से आयोजित प्रजनन। \n किसानों के दरवाजे पर गुणवत्ता कृत्रिम गर्भाधान (एआई) सेवाओं की व्यवस्था करने के लिए कनेक्टर्स और किसानों को जोड़ने के लिए गोजातीय जर्मप्लाज्म के लिए ई-मार्केट पोर्टल बनाना।
+सैनिटरी और फाइटो सेनेटरी (एसपीएस) के मुद्दों को पूरा करके पशुधन और पशुधन उत्पादों के व्यापार को बढ़ाने के लिए \ ning जीनोमिक्स के आवेदन के माध्यम से कम उम्र में उच्च आनुवंशिक योग्यता वाले बैल का चयन करना।</string>
+    <string name="rgm_link">http://dahd.nic.in/rashtriya-gokul-mission</string>
+
+    //shcs
+    <string name="shcs_head">मृदा स्वास्थ्य कार्ड का उपयोग मृदा स्वास्थ्य की वर्तमान स्थिति का आकलन करने के लिए किया जाता है और समय के साथ मृदा स्वास्थ्य में परिवर्तन का निर्धारण किया जाता है जो भूमि प्रबंधन से प्रभावित होता है। \n एक मृदा स्वास्थ्य कार्ड मृदा स्वास्थ्य संकेतक और संबंधित वर्णनात्मक शब्द प्रदर्शित करता है। संकेतक आमतौर पर किसानों के व्यावहारिक अनुभव और स्थानीय प्राकृतिक संसाधनों के ज्ञान पर आधारित होते हैं। कार्ड में मृदा स्वास्थ्य सूचकों को सूचीबद्ध किया गया है जिनका तकनीकी या प्रयोगशाला उपकरणों की सहायता के बिना मूल्यांकन किया जा सकता है। \n
+    मृदा स्वास्थ्य कार्ड (SHC) कृषि और किसान कल्याण मंत्रालय के तहत कृषि और सहकारिता विभाग द्वारा प्रवर्तित भारत सरकार की एक योजना है। यह सभी राज्य और केंद्र शासित प्रदेशों के कृषि विभाग के माध्यम से कार्यान्वित किया जा रहा है।
+    मृदा स्वास्थ्य कार्ड योजना किसानों के लिए बहुत ही लाभकारी योजना है। भारत में कई किसान हैं। और वे यह नहीं जानते हैं कि उन्हें किस प्रकार की फसलें उगानी चाहिए ताकि अधिकतम उपज प्राप्त हो सके। मूल रूप से, वे अपनी मिट्टी की गुणवत्ता और प्रकार नहीं जानते हैं। वे अनुभव से जान सकते हैं कि क्या फसलें उगती हैं और कौन सी फसलें असफल होती हैं। लेकिन वे जानते हैं कि वे मिट्टी की स्थिति को सुधारने के लिए क्या कर सकते हैं।</string>
+    <string name="shcs_object">
+
+• यह योजना किसानों की मिट्टी की अच्छी तरह से निगरानी करेगी और उन्हें एक प्रारूपित रिपोर्ट देगी। इसलिए, वे अच्छी तरह से तय कर सकते हैं कि उन्हें किन फसलों की खेती करनी चाहिए और किन लोगों को उन्हें छोड़ देना चाहिए। \n
+• अधिकारी नियमित रूप से मिट्टी की निगरानी करेंगे। प्रत्येक 3 वर्षों में एक, वे किसानों को एक रिपोर्ट प्रदान करेंगे। इसलिए, किसानों को चिंता करने की ज़रूरत नहीं है अगर मिट्टी की प्रकृति कुछ कारकों के कारण बदल जाती है। इसके अलावा, उनके पास हमेशा अपनी मिट्टी के बारे में अद्यतन डेटा होगा। \n
+• सरकार का काम मिट्टी की गुणवत्ता में सुधार के लिए आवश्यक उपायों को सूचीबद्ध करना बंद नहीं करता है। वास्तव में, वे सुधारात्मक उपाय करने में किसानों की मदद करने के लिए विशेषज्ञों को भी नियुक्त करेंगे। \n
+• किसानों को मृदा स्वास्थ्य कार्ड योजना के लिए एक उचित मृदा स्वास्थ्य रिकॉर्ड मिलेगा। साथ ही, वे मृदा प्रबंधन प्रथाओं का अध्ययन कर सकते हैं। तदनुसार, वे अपनी फसलों और भूमि के भविष्य की योजना बना सकते हैं। \n
+• आमतौर पर, सरकारी योजनाओं में, एक विशेष किसान के लिए अध्ययन करने वाले व्यक्ति को बदल दिया जाता है। लेकिन मृदा स्वास्थ्य कार्ड योजना में, सरकार ध्यान दे रही है कि एक ही व्यक्ति एक किसान के लिए मिट्टी का विश्लेषण करता है। यह योजना की प्रभावशीलता को और बढ़ाएगा। \n
+• मृदा कार्ड किसानों को उचित विचार देगा कि उनकी मिट्टी में किन पोषक तत्वों की कमी है। और इसलिए, उन्हें किन फसलों में निवेश करना चाहिए। वे यह भी बताएंगे कि उन्हें किन उर्वरकों की जरूरत है। तो, अंततः, फसल की उपज में वृद्धि देखी जाएगी। \n
+• इस योजना के पीछे मुख्य उद्देश्य विशेष मिट्टी के प्रकार का पता लगाना था। और फिर ऐसे तरीके प्रदान करें जिनसे हम इसमें सुधार कर सकें। भले ही एक मिट्टी की कुछ सीमाएं हों, हम इसका अधिकतम लाभ उठाने के लिए कुछ कर सकते हैं। और यही सरकार इस योजना की मदद से करने की कोशिश कर रही है। \n</string>
+    <string name="shcs_link">https://soilhealth.dac.gov.in/</string>
+
+    <string name="pmfby">प्रधान मंत्री फसल बिमा योजना</string>
+    <string name="pmsky">प्रधानमंत्री कृषी संचयी योजना</string>
+    <string name="kcc">किसान क्रेडिट कार्ड</string>
+    <string name="rgm">राष्ट्रीय गोकुल मिशन</string>
+    <string name="shcs">साइल हेल्थ कार्ड स्कीम</string>
+
+    <string name="t1">बालाजी ट्रांसपोर्ट</string>
+    <string name="c1">संपर्क: 9420484497</string>
+    <string name="call">कॉल</string>
+    <string name="request">निवेदन</string>
+    <string name="t2">सदाशिव ट्रांसपोर्ट</string>
+    <string name="c2">संपर्क: 9764955130</string>
+    <string name="t3">आर.के. रोडलाईन</string>
+    <string name="c3">संपर्क: 9422257146</string>
+    <string name="t4">सिंध ट्रांसपोर्ट</string>
+    <string name="c4">संपर्क: 7588703202</string>
+    <string name="t5">पंजाब ट्रांसपोर्ट</string>
+    <string name="c5">संपर्क: 8975588068</string>
+    <string name="trans_new">नयी शोध</string>
+    <string name="location_from">प्रारंभ स्थान</string>
+    <string name="mfrom">प्रारंभ स्थान का चयन करें</string>
+    <string name="location_to">अंतिम स्थान</string>
+    <string name="mto">अंतिम स्थान चुनें</string>
+    <string name="content">सामग्री</string>
+    <string name="mcon">सामग्री दर्ज करें</string>
+    <string name="trans_load">लोड दर्ज करें</string>
+    <string name="mtrans_load">क्विंटल में लोड डालें</string>
+    <string name="show">आगामी</string>
+    <string name="subreq">अनुरोध सफलतापूर्वक ट्रांसपोर्टर को प्रस्तुत किया गया।</string>
+    <string name="cont">जारी</string>
+    <string name="exit">बाहर</string>
+    <string name="reqsuc">सफलतापूर्वक अनुरोध किया</string>
+    <string name="cloc">वर्तमान स्थान प्राप्त कर रहा है..</string>
+
+    <string name="clog">क्या आप लॉग आउट करना चाहते हैं?</string>
+    <string name="yes">हाँ</string>
+    <string name="no">नहीं</string>
+    <string name="crop">फ़सल</string>
+    <string name="date">दिनांक</string>
+    <string name="arrivals">आगमन</string>
+    <string name="min_price">न्यूनतम मूल्य</string>
+    <string name="max_price">अधिकतम मूल्य</string>
+    <string name="enter_date">दिनांक</string>
+    <string name="select_date">तारीख़ चुनें</string>
+    <string name="market2">बाजार</string>
+
+    <string name="update_price_info">अद्यतन मूल्य जानकारी</string>
+    <string name="enter_arrivals_in_quintals">प्क्विंटल में आगमन दर्ज करें</string>
+    <string name="enter_arrival">आगमन दर्ज करें</string>
+    <string name="enter_min_price_per_100_q">न्यूनतम मूल्य प्रति 100Q दर्ज करें</string>
+    <string name="enter_min_price">न्यूनतम मूल्य दर्ज करें</string>
+    <string name="enter_max_price_per_100_q">प्रति 100Q अधिकतम मूल्य दर्ज करें</string>
+    <string name="enter_max_price">अधिकतम मूल्य दर्ज करें</string>
+    <string name="redeem_for_arrivals">आगमन बताओ</string>
+    <string name="trayagain">बाद में पुन: प्रयास करें।</string>
+    <string name="earn1">आपको इनाम प्राप्त करने के लिए लगातार दो दिनों में \'आगमन में फसल जोड़ें\' सुविधा का उपयोग करने की आवश्यकता है।</string>
+    <string name="congo">बधाई हो!</string>
+    <string name="coupon">आपका कूपन कोड है:</string>
+    <string name="use">एग्री शॉप में अपनी खरीद पर छूट प्राप्त करने के लिए निम्नलिखित कोड का उपयोग करें।</string>
+    <string name="value">आपके बहुमूल्य समय के लिए धन्यवाद,</string>
+
+    <string name="no_entries_yet">अभी तक कोई एंट्री नहीं है</string>
+    <string name="trytime">कृपया कुछ समय बाद पुनः प्रयास करें।</string>
+
+    <string name="salereg">फसल बिक्री के लिए पंजीकृत किया</string>
+    <string name="add_new">नया जोड़ें</string>
+    <string name="scity">शहर चुनें</string>
+    <string name="traderint">जैसे ही कोई भी ट्रेडर दिलचस्पी दिखाता है हम आपसे संपर्क करेंगे।</string>
+    <string name="change">प्रोफ़ाइल चित्र बदलें</string>
+
+    <string name="myard">मार्क यार्ड का चयन करें</string>
+    <string name="mmcrop">फसल का चयन करें</string>
+
+</resources>

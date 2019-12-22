@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".TDash_Transport">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grad"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#aa212121"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ttrans_back"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#aa212121"
+                android:drawableLeft="@drawable/back"
+                android:fontFamily="@font/avenir_light"
+                android:gravity="center"
+                android:paddingRight="25dp"
+                android:text="Transport"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/timageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/trans_head" />
+
+                    <LinearLayout
+                        android:id="@+id/tdis1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/fac_button"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/balaji"
+                            app:civ_border_color="#707070"
+                            app:civ_border_width="3dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tn1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="Balaji Transport"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tc1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="Contact : 9420484497"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/tcall1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="Call"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+
+                                <Button
+                                    android:id="@+id/tre1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="Request"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tdis2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/fac_button"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/sadashiv"
+                            app:civ_border_color="#707070"
+                            app:civ_border_width="3dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tn2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="Sadashiv Transport"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tc2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="Contact : 9764955130"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/tcall2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="Call"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+
+                                <Button
+                                    android:id="@+id/tre2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="Request"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tdis3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/fac_button"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/rk"
+                            app:civ_border_color="#707070"
+                            app:civ_border_width="3dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tn3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="R.K. Roadlines"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tc3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="Contact : 9422257146"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/tcall3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="Call"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+
+                                <Button
+                                    android:id="@+id/tre3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="Request"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tdis4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/fac_button"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/sindh"
+                            app:civ_border_color="#707070"
+                            app:civ_border_width="3dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tn4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="Sindh Transport"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tc4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="Contact : 7588703202"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/tcall4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="Call"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+
+                                <Button
+                                    android:id="@+id/tre4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="Request"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tdis5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/fac_button"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginRight="15dp"
+                            android:src="@drawable/pun"
+                            app:civ_border_color="#707070"
+                            app:civ_border_width="3dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tn5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="Punjab Transport"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <TextView
+                                android:id="@+id/tc5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:fontFamily="@font/avenir_light"
+                                android:text="Contact : 8975588068"
+                                android:textColor="#424242"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <Button
+                                    android:id="@+id/tcall5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="Call"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+
+                                <Button
+                                    android:id="@+id/tre5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/submit"
+                                    android:elevation="10dp"
+                                    android:fontFamily="@font/avenir_light"
+                                    android:text="Request"
+                                    android:textAllCaps="false"
+                                    android:textColor="#ffffff" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/ttrans_new"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/submit"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:paddingLeft="40dp"
+                        android:paddingRight="40dp"
+                        android:text="New Search"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/ttrans_mfrom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/avenir_light"
+                        android:text="LOCATION FROM"
+                        android:textColor="#ffffff"
+                        android:textSize="9sp" />
+
+                    <TextView
+                        android:id="@+id/ttrans_from"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/my_spinner"
+                        android:ems="10"
+                        android:fontFamily="@font/avenir_light"
+                        android:gravity="center|left"
+                        android:hint="Select start location"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/DD_Option"
+                        android:textColorHint="@color/DD_Basic"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ttrans_mto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/avenir_light"
+                        android:text="LOCATION TO"
+                        android:textColor="#ffffff"
+                        android:textSize="9sp" />
+
+                    <TextView
+                        android:id="@+id/ttrans_to"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/my_spinner"
+                        android:ems="10"
+                        android:fontFamily="@font/avenir_light"
+                        android:gravity="center|left"
+                        android:hint="Select end location"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/DD_Option"
+                        android:textColorHint="@color/DD_Basic"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ttrans_mcon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/avenir_light"
+                        android:text="CONTENT"
+                        android:textColor="#ffffff"
+                        android:textSize="9sp" />
+
+                    <EditText
+                        android:id="@+id/ttrans_con"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/my_spinner"
+                        android:ems="10"
+                        android:fontFamily="@font/avenir_light"
+                        android:hint="Enter content"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/DD_Option"
+                        android:textColorHint="@color/DD_Basic"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ttrans_mload"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/avenir_light"
+                        android:text="LOAD IN QUINTALS"
+                        android:textColor="#ffffff"
+                        android:textSize="9sp" />
+
+                    <EditText
+                        android:id="@+id/ttrans_load"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/my_spinner"
+                        android:ems="10"
+                        android:fontFamily="@font/avenir_light"
+                        android:hint="Enter load in quintals"
+                        android:inputType="number"
+                        android:textColor="@color/DD_Option"
+                        android:textColorHint="@color/DD_Basic"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/ttrans_submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/submit"
+                        android:fontFamily="@font/avenir55_roman"
+                        android:paddingLeft="40dp"
+                        android:paddingRight="40dp"
+                        android:text="Show"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="20sp" />
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

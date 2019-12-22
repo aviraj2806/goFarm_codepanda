@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".FDash_Arr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grad"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#aa212121"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/arr_back"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+
+                android:background="#aa212121"
+                android:drawableLeft="@drawable/back"
+                android:fontFamily="@font/avenir_light"
+                android:gravity="center|center_vertical"
+                android:paddingRight="25dp"
+                android:text="@string/fdash_aa"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/stat_head" />
+
+                    <Button
+                        android:id="@+id/arr_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/fac_button"
+                        android:drawableBottom="@drawable/down"
+                        android:fontFamily="@font/avenir_light"
+                        android:onClick="onStatus"
+                        android:paddingTop="7dp"
+                        android:text="@string/arr_current"
+                        android:textAllCaps="false"
+                        android:textColor="#424242"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/arr_lstatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/lower"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/arr_mstatus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="5dp"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/arr_mstatus1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="5dp"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/arr_mstatusmarket"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/marr_my"
+                            android:textColor="#616161"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/arr_statusmarket"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:gravity="center|center_vertical"
+                            android:popupBackground="@drawable/fac_dropdown" />
+
+                        <TextView
+                            android:id="@+id/arr_mstatuscrop"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/marr_crop"
+                            android:textColor="#616161"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/arr_statuscrop"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:gravity="center|center_vertical"
+                            android:popupBackground="@drawable/fac_dropdown" />
+
+                        <Button
+                            android:id="@+id/arrs_statusnext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/fac_next"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/next"
+                            android:textAllCaps="false"
+                            android:textColor="#424242"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/arr_statusback"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/up" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/arr_sell"
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/fac_button"
+                        android:drawableBottom="@drawable/down"
+                        android:fontFamily="@font/avenir_light"
+                        android:onClick="onSell"
+                        android:paddingTop="7dp"
+                        android:text="@string/arr_add"
+                        android:textAllCaps="false"
+                        android:textColor="#424242"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:id="@+id/arr_lsell"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/lower"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/arr_msell"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="5dp"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/arr_msell1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingRight="5dp"
+                            android:paddingBottom="5dp"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/arr_msellmarket"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/marr_my"
+                            android:textColor="#616161"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/arr_sellmarket"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:gravity="center|center_vertical"
+                            android:popupBackground="@drawable/fac_dropdown" />
+
+                        <TextView
+                            android:id="@+id/arr_msellcrop"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/marr_crop"
+                            android:textColor="#616161"
+                            android:textSize="12sp" />
+
+                        <Spinner
+                            android:id="@+id/arr_sellcrop"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:gravity="center|center_vertical"
+                            android:popupBackground="@drawable/fac_dropdown" />
+
+                        <TextView
+                            android:id="@+id/arr_msellq"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="20dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/marr_quan"
+                            android:textColor="#616161"
+                            android:textSize="12sp" />
+
+                        <EditText
+                            android:id="@+id/arr_sellq"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/fac_spinner"
+                            android:ems="10"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:inputType="number"
+                            android:textColor="@color/FAC_Option"
+                            android:textColorHint="@color/FAC_Basic"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/arrs_sellnext"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/fac_next"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/next"
+                            android:textAllCaps="false"
+                            android:textColor="#424242"
+                            android:textSize="16sp" />
+
+                        <ImageView
+                            android:id="@+id/arr_sellback"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/up" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codebreak.gofarm2">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TDash_Transport"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".TDash_Sale"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".TDash_BuyEdit"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".TDash_Buy"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".TraderDash"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".FDash_Transport"
+            android:launchMode="singleTask" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".FDash_SellEdit"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".FDash_Sell"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".FDash_Trader"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".FDash_Earn"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".FDash_Price"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".DisplayScheme"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".FDash_Govt"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".LoanSuccess"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".FDash_Loans"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".FDash_Adv"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".FDash_Arr"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".FarmerDash"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".Register"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".HomePage"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="true" />
+    </application>
+
+</manifest>

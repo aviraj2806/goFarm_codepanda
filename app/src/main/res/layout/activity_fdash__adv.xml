@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".FDash_Adv">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grad"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#aa212121"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/adv_back"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+
+                android:background="#aa212121"
+                android:drawableLeft="@drawable/back"
+                android:fontFamily="@font/avenir_light"
+                android:gravity="center"
+                android:paddingRight="25dp"
+                android:text="@string/fdash_adv"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        app:srcCompat="@drawable/advi_head" />
+
+                    <Button
+                        android:id="@+id/adv_fer"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/fac_button"
+                        android:drawableBottom="@drawable/down"
+                        android:fontFamily="@font/avenir_light"
+                        android:gravity="center|center_vertical"
+                        android:onClick="onFer"
+                        android:text="@string/q1"
+                        android:textAllCaps="false"
+                        android:textColor="#424242"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/adv_lfer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/lower"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/adv_mfer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/adv_mfer1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/adv_qfer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/et"
+                            android:ems="10"
+                            android:hint="@string/qhint"
+                            android:inputType="textMultiLine"
+                            android:maxLines="15"
+                            android:minLines="1"
+                            android:scrollbarAlwaysDrawVerticalTrack="true"
+                            android:textColor="#000000"
+                            android:textColorHint="#757575"
+                            android:textCursorDrawable="@drawable/cursor"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/adv_nextfer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/fac_next"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/submit"
+                            android:textAllCaps="false"
+                            android:textColor="#424242"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:id="@+id/adv_backfer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/up" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/adv_irr"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/fac_button"
+                        android:drawableBottom="@drawable/down"
+                        android:fontFamily="@font/avenir_light"
+                        android:gravity="center|center_vertical"
+                        android:onClick="onIrr"
+                        android:text="@string/q2"
+                        android:textAllCaps="false"
+                        android:textColor="#424242"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/adv_lirr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/lower"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/adv_mirr"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/adv_mirr1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/adv_qirr"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/et"
+                            android:ems="10"
+                            android:hint="@string/qhint"
+                            android:inputType="textMultiLine"
+                            android:maxLines="15"
+                            android:minLines="1"
+                            android:scrollbarAlwaysDrawVerticalTrack="true"
+                            android:textColor="#000000"
+                            android:textColorHint="#757575"
+                            android:textCursorDrawable="@drawable/cursor"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/adv_nextirr"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/fac_next"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/submit"
+                            android:textAllCaps="false"
+                            android:textColor="#424242"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:id="@+id/adv_backirr"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/up" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/adv_pro"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/fac_button"
+                        android:drawableBottom="@drawable/down"
+                        android:fontFamily="@font/avenir_light"
+                        android:gravity="center|center_vertical"
+                        android:onClick="onPro"
+                        android:text="@string/q3"
+                        android:textAllCaps="false"
+                        android:textColor="#424242"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/adv_lpro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/lower"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/adv_mpro"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/adv_mpro1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/adv_qpro"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/et"
+                            android:ems="10"
+                            android:hint="@string/qhint"
+                            android:inputType="textMultiLine"
+                            android:maxLines="15"
+                            android:minLines="1"
+                            android:scrollbarAlwaysDrawVerticalTrack="true"
+                            android:textColor="#000000"
+                            android:textColorHint="#757575"
+                            android:textCursorDrawable="@drawable/cursor"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/adv_nextpro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/fac_next"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/submit"
+                            android:textAllCaps="false"
+                            android:textColor="#424242"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:id="@+id/adv_backpro"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/up" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/adv_pest"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/fac_button"
+                        android:drawableBottom="@drawable/down"
+                        android:fontFamily="@font/avenir_light"
+                        android:gravity="center|center_vertical"
+                        android:onClick="onPest"
+                        android:text="@string/q4"
+                        android:textAllCaps="false"
+                        android:textColor="#424242"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/adv_lpest"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/lower"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/adv_mpest"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/adv_mpest1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="14sp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/adv_attach"
+                                android:layout_width="35dp"
+                                android:layout_height="25dp"
+                                android:src="@drawable/up"
+                                app:civ_border_color="#707070"
+                                app:civ_border_width="2dp" />
+
+                            <TextView
+                                android:id="@+id/adv_attachpest"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="1"
+                                android:drawableLeft="@drawable/attach"
+                                android:fontFamily="@font/avenir55_roman"
+                                android:gravity="center_vertical"
+                                android:onClick="onAttach"
+                                android:text="@string/qattach"
+                                android:textColor="#000000"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/adv_qpest"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/et"
+                            android:ems="10"
+                            android:gravity="center"
+                            android:hint="@string/qhint"
+                            android:inputType="textMultiLine"
+                            android:maxLines="15"
+                            android:minLines="1"
+                            android:scrollbarAlwaysDrawVerticalTrack="true"
+                            android:textColor="#000000"
+                            android:textColorHint="#757575"
+                            android:textCursorDrawable="@drawable/cursor"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/adv_nextpest"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/fac_next"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/submit"
+                            android:textAllCaps="false"
+                            android:textColor="#424242"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:id="@+id/adv_backpest"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/up" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/adv_other"
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/fac_button"
+                        android:drawableBottom="@drawable/down"
+                        android:fontFamily="@font/avenir_light"
+                        android:gravity="center|center_vertical"
+                        android:onClick="onOther"
+                        android:text="@string/q5"
+                        android:textAllCaps="false"
+                        android:textColor="#424242"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/adv_lother"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/lower"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingBottom="5dp">
+
+                        <TextView
+                            android:id="@+id/adv_mother"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/adv_mother1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="TextView"
+                            android:textColor="#616161"
+                            android:textSize="14sp" />
+
+                        <EditText
+                            android:id="@+id/adv_qother"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/et"
+                            android:ems="10"
+                            android:hint="@string/qhint"
+                            android:inputType="textMultiLine"
+                            android:maxLines="15"
+                            android:minLines="1"
+                            android:scrollbarAlwaysDrawVerticalTrack="true"
+                            android:textColor="#000000"
+                            android:textColorHint="#757575"
+                            android:textCursorDrawable="@drawable/cursor"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/adv_nextother"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="8dp"
+                            android:background="@drawable/fac_next"
+                            android:fontFamily="@font/avenir55_roman"
+                            android:text="@string/submit"
+                            android:textAllCaps="false"
+                            android:textColor="#424242"
+                            android:textSize="14sp" />
+
+                        <ImageView
+                            android:id="@+id/adv_backother"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/up" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
